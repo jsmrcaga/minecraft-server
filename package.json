@@ -1,0 +1,36 @@
+{
+  "name": "minecraft-commands",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --exit",
+    "start": "node server.js"
+  },
+  "bin": {
+    "minecraft-server": "./bin/minecraft.js"
+  },
+  "author": "Jo Colina <jo@jocolina.com>",
+  "license": "MIT",
+  "dependencies": {
+    "argumentate": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmrcaga/minecraft-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsmrcaga/minecraft-server/issues"
+  },
+  "homepage": "https://github.com/jsmrcaga/minecraft-server#readme",
+  "description": ""
+}
